@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "preserveConstEnums": false,
+        "removeComments": true,
+        "sourceMap": false,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "target": "ESNext",
+        "outDir": "dist"
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ],
+    "types": [
+        "node"
+    ]
+}
