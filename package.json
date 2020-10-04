@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "npx tsc ; node prepublish.js",
-    "publish": "cd dist && npm publish --access public --dry-run",
+    "publish": "cd dist && npm publish --access public",
     "lint": "npx eslint . --ext .ts"
   },
   "bin": {
